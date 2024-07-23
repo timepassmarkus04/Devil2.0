@@ -26,12 +26,12 @@ def private_panel(_):
         ],
         [InlineKeyboardButton(text=" 𝐇ᴇʟᴘ 𝐀ɴᴅ 𝐂ᴏᴍᴍᴀɴᴅꜱ ", callback_data="settings_back_helper")],
         [
-            InlineKeyboardButton(text=" 𝐍ᴇᴛᴡᴏʀᴋ ", url=config.SUPPORT_CHAT),
+            InlineKeyboardButton(text=" 𝗚𝗿𝗼𝘂𝗽 ", url=config.SUPPORT_CHAT),
             InlineKeyboardButton(text=" 𝐂ʜᴀɴɴᴇʟ ", url=config.SUPPORT_CHANNEL),
         ],
         [
-            InlineKeyboardButton(text=" 𝐌ᴏᴍ ", user_id=config.OWNER_ID),
-            InlineKeyboardButton(text=" 𝐒ᴏᴜʀᴄᴇ ", url=config.UPSTREAM_REPO),
+            InlineKeyboardButton(text=" 𝖮𝗐𝗇𝖾𝗋 ", user_id=config.OWNER_ID),
+            InlineKeyboardButton(text=" 𝖭𝗈𝗍𝗁𝗂𝗇𝗀 ", url=config.UPSTREAM_REPO),
         ],
     ]
     return buttons
